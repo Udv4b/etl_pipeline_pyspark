@@ -1,0 +1,40 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# PySpark / Spark temporary files
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Log files
+*.log
+
+# Optional: PostgreSQL local data
+postgres_data/
+
+# Python build files
+build/
+dist/
+*.egg-info/
